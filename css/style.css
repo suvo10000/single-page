@@ -1,0 +1,669 @@
+/*======================================
+  Common css start
+========================================*/
+
+body{
+  margin: 0;
+  color: #666666;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* .all_padding{
+  padding: 0 7%;
+} */
+
+/*======================================
+  Common css  end
+========================================*/
+
+
+
+
+
+
+
+/*======================================
+  top_header css start
+========================================*/
+
+#top_header{
+  width: 98%;
+  margin: 0 auto;
+  clear: both;
+  height: auto;
+}
+
+.topheader_container{
+  width: 100%;
+  overflow: hidden;
+  background-color: #576574;
+}
+
+.tolbar_area{
+  width: 30%;
+  float: left;
+  color: white;
+}
+
+.tolbar_area p{
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+
+
+.social_area{
+  width: 60%;
+  float: right;
+}
+
+.social_area ul{
+  text-align: right;
+}
+
+.social_area ul li{
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+.social_area ul li:last-child{
+  margin-right: 30px;
+}
+
+.social_area ul li a{
+  display: block;
+  text-decoration: none;
+
+}
+
+.social_area ul li a .fa-brands{
+  width: 35px;
+  height: 25px;
+  background-color: white;
+  color: #576574;
+  display: block;
+  padding-top: 8px;
+  border-radius: 50%;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.social_area ul li:hover .fa-facebook{
+  background-color: #23355c;
+  color: aliceblue;
+}
+
+.social_area ul li:hover .fa-whatsapp{
+  background-color: #0eb00c;
+  color: aliceblue;
+}
+
+.social_area ul li:hover .fa-twitter{
+  background-color: #006889;
+  color: aliceblue;
+}
+
+.social_area ul li:hover .fa-instagram{
+  background-color: #711957;
+  color: aliceblue;
+}
+
+/*======================================
+  top_header css end
+========================================*/
+
+
+
+
+
+
+/*======================================
+  nav_area css start
+========================================*/
+
+#nav_area{
+  width: 98%;
+  margin: 20px auto 0;
+  clear: both;
+}
+
+.menu_bar{
+  background-color: rgb(215, 85, 38);
+}
+
+.menu_bar ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.menu_bar ul li{
+  display: inline-block;
+  list-style-type: none;
+  position: relative;
+}
+
+.menu_bar ul li a{
+  color: gold;
+  text-decoration: none;
+  padding: 14px 50px;
+  display: block;
+  transition: 0.5s;
+}
+
+.menu_bar ul li a:hover{
+  background-color: indigo;
+  color: white;
+  font-size: 17px;
+}
+
+
+.menu_bar ul ul{ 
+  width: 200px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  display: none;
+  z-index: 99999999999;
+}
+
+.menu_bar ul ul li{
+  display: block;
+}
+
+.menu_bar ul li:hover a{
+  background-color: indigo;
+}
+
+.menu_bar ul li:hover li a{
+  background-color: black;
+}
+
+.menu_bar ul ul li a:hover{
+  background-color:  rgb(215, 85, 38);
+}
+
+.menu_bar ul li:hover ul{
+  display: block;
+}
+
+
+/*======================================
+  nav_area css end
+========================================*/
+
+
+
+
+
+/*======================================
+  #poster css start
+========================================*/
+
+#poster{
+  width: 98%;
+  height: 700px;
+  margin: 0 auto;
+  clear: both;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.457);
+}
+
+#poster .writting-area{
+  width: 100%;
+  color:white;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  z-index: 99999;
+  transform: translate(-50%,-50%);
+}
+
+#poster .writting-area h1{
+  font-size: 40px;
+  color: yellow;
+  text-align: center;
+}
+
+
+.writting-area h1::after{
+  width: 200px;
+  height: 10px;
+  position: absolute;
+  top: 75px;
+  left: 500px;
+  content: "";
+  background-color: brown;
+  border-radius: 10px;
+}
+
+.writting-area p{
+  font-size: 18px;
+  color: white;
+  word-spacing: 1px;
+}
+
+.writting-area p::first-letter{
+  font-size: 50px;  
+  color: rgb(255, 0, 0);
+}
+
+#poster .image-area{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -999999;
+}
+
+/*======================================
+  #poster css end
+========================================*/
+
+
+
+
+
+
+
+/*======================================
+  why-us css end
+========================================*/
+
+#why-us{
+  width: 98%;
+  margin: 0 auto;
+  clear: both;
+}
+
+#why-us .caption h1{
+  font-size: 40px;
+  text-align: center;
+  color:#bcca4d;
+  margin: 30px  20px 20px 20px;
+  padding: 10px;
+  position: relative;
+}
+
+#why-us .caption h1::after{
+  width: 150px;
+  height: 10px;
+  position: absolute;
+  background-color: #000000;
+  content: "";
+  top: 45px;
+  left:500px;
+  border-radius: 10px;
+}
+
+.inner-div{
+  width: 100%;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.inner-div .box{
+  width: 31%;
+  float: left;
+  margin: 1%;
+}
+
+.inner-div .box img{
+  width: 250px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.inner-div .box h2{
+  font-size: 25px;
+  text-align: center;
+  color: rgb(55, 26, 203);
+}
+
+.inner-div .box p{
+  font-size: 17px;
+  text-align-last: center;
+}
+
+
+/*======================================
+  why-us css end
+========================================*/
+
+
+
+
+/*======================================
+   about-section end
+========================================*/
+
+#about-section{
+  background-color: #e8720c;
+  width: 94%;
+  height: auto;
+  margin: 0 auto;
+  padding: 2% 2%;
+  clear: both;
+}
+
+#about-section .inner-section{
+ overflow: hidden;
+}
+
+.inner-section .written-area{
+  width: 58%;
+  margin: 1%;
+  float: left;
+}
+
+.inner-section .written-area h2{
+  font-size: 30px;
+  margin: 10px;
+  color: white;
+}
+
+.inner-section .written-area p{
+  font-size: 19px;
+  color: white;
+}
+
+.inner-section .cotact-area{
+  width: 38%;
+  margin: 1%;
+  float: right;
+  text-align: center;
+}
+
+
+.inner-section .cotact-area input[type="submit"]{
+  width: 250px;
+  margin-top: 35px;
+  padding: 10px 20px;
+  font-size: 25px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+}
+
+/*======================================
+  about-section css end
+========================================*/
+
+
+
+
+
+
+
+/*======================================
+  bolg css strt
+========================================*/
+
+#blog{
+  width: 98%;
+  margin: 0 auto;
+  clear: both;
+}
+
+#blog .blog-caption h1{
+  font-size: 40px;
+  text-align: center;
+  color:#bcca4d;
+  margin: 30px  20px 20px 20px;
+  padding: 10px;
+  position: relative;
+}
+
+#blog .blog-caption h1::after{
+  width: 150px;
+  height: 10px;
+  position: absolute;
+  background-color: #000000;
+  content: "";
+  top: 45px;
+  left:500px;
+  border-radius: 10px;
+}
+
+.inner-blog{
+  width: 100%;
+  margin-top: 50px;
+  overflow: hidden; 
+}
+
+.inner-blog .child-blog{
+  width: 31%;
+  float: left;
+  margin: 1%;
+}
+
+.inner-blog .child-blog img{
+  width: 250px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.inner-blog .child-blog h2{
+  font-size: 25px;
+  text-align: center;
+  color: rgb(55, 26, 203);
+}
+
+.inner-blog .child-blog p{
+  font-size: 17px;
+  text-align-last: center;
+}
+
+.inner-blog .child-blog a{
+  float: right;
+  font-size: 16px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.inner-blog .child-blog a:hover{
+  color: chocolate;
+  font-size: 18px;
+}
+
+
+
+/*======================================
+  bolg css end
+========================================*/
+
+
+
+
+
+
+
+/*======================================
+  service-section css strt
+========================================*/
+
+#service-section{
+  background-color: #e8720c;
+  width: 94%;
+  height: auto;
+  margin: 0 auto;
+  padding: 2% 2%;
+  clear: both;
+}
+
+#service-section .service-area{
+  overflow: hidden;
+}
+
+.service-area .service-writting{
+  width: 48%;
+  margin: 1%;
+  float: left;
+}
+
+.service-area .service-writting h2{
+  font-size: 30px;
+  font-family: cursive;
+  color: white;
+}
+
+.service-area .service-form{
+  width: 48%;
+  margin: 1%;
+  float: right;
+}
+
+.service-area .service-form input{
+  width: 200px;
+  margin-top: 15px;
+  padding: 15px 20px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 5px solid black;
+}
+
+.service-area .service-form input::placeholder{
+  color: white;
+  font-size: 17px;
+}
+
+.service-area .service-form input[type="submit"]{
+  width: 130px;
+  margin-top: 35px;
+  padding: 5px 7px;
+  font-size: 23px;
+  background-color: rgba(255, 255, 255, 0.505);
+  cursor: pointer;
+  border-bottom: none;
+  border-radius: 10px;
+}
+
+/*======================================
+  service-section css end
+========================================*/
+
+
+
+
+
+
+
+/*======================================
+  footer-section css strt
+========================================*/
+
+#footer{
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 20px;
+  clear: both;
+  background-color: #576574;
+}
+
+#footer .inner-footer{
+  overflow: hidden;
+}
+
+.inner-footer .all-footer{
+  width: 31%;
+  margin: 1%;
+  float: left;
+}
+
+.inner-footer .all-footer h2{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  padding-bottom:10px ;
+  border-bottom: 10px solid red;
+  border-radius: 70%;
+}
+
+.inner-footer .all-footer a{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 2px solid rgb(255, 115, 0);
+  transition: 0.5s;
+}
+
+.inner-footer .all-footer a:hover{
+  font-size: 18px;
+  color: navy;
+}
+
+.inner-footer .blog-post .link{
+  float: right;
+  text-decoration: none;
+  color: #000000;
+}
+
+.inner-footer .all-footer p{
+  text-align: center;
+  color: white;
+}
+
+
+/*======================================
+  footer css end
+========================================*/
+
+
+
+
+
+
+
+/*======================================
+  copyright_area css start
+========================================*/
+
+#copyright_area{
+  width: 98%;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 10px;
+  background-color: burlywood;
+}
+
+#copyright_area .innercopyright_area{
+  overflow: hidden;
+}
+
+.innercopyright_area .left_copyright{
+  width: 45%;
+  float: left;
+  font-size: 18px;
+  color: #000000;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.innercopyright_area .right_copyright{
+  width: 45%;
+  float: right;
+  text-align: right;
+  font-size: 18px;
+  color: #000000;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+
+/*======================================
+  copyright_area css end
+========================================*/

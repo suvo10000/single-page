@@ -1,0 +1,208 @@
+/*======================================
+  tablet layout css strt
+========================================*/
+
+@media only screen and (min-width:200px) and (max-width:991px){
+
+  .menu_bar ul li a{
+    padding: 10px 20px;
+  }  
+
+  #poster{
+    height: 500px;
+  }
+
+  .writting-area h1::after{
+    width: 300px;
+    left: 230px;
+  }
+
+  #why-us .caption h1::after{
+    left: 280px;
+  }
+
+  #blog .blog-caption h1::after{
+    width: 150px;
+    left:280px;
+  }
+
+  .service-area .service-writting h2{
+    line-height: 1.5em;
+    text-align-last: center;
+  }
+  
+  .service-area .service-form input{
+    margin-left: 50px;
+  }
+  
+  .service-area .service-form input[type="submit"]{
+    margin: 19px 0 0 94px;
+  }
+
+}
+
+/*======================================
+  tablet layout css end
+========================================*/
+
+
+
+
+
+/*======================================
+  mobile layout css strt
+========================================*/
+
+@media only screen and (min-width:200px) and (max-width:480px){
+
+  body{
+    width: 94%;
+    margin: 0 auto;
+  }
+  
+  .tolbar_area{
+    width: 100%;
+  }
+
+  .tolbar_area p{
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .social_area{
+    width: 100%;
+  }
+
+  .social_area ul{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+
+  #poster{
+    height: 255px;
+  }
+  
+  #poster .writting-area h1{
+    font-size: 30px;
+    
+  }
+
+  .writting-area h1::after{
+    width: 200px;
+    height: 7px;
+    top: 55px;
+    left: 90px;
+  }
+
+  .writting-area p{
+    font-size: 17px;
+  }
+
+  .writting-area p::first-letter{
+    font-size: 35px;  
+  }
+
+  #why-us{
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+  }
+
+  #why-us .caption h1::after{
+    left: 95px;
+  }
+
+  .inner-div .box{
+    width: 100%;
+    
+  }
+
+  .inner-div .box p{
+    width: 370px;
+    margin: 0 auto;
+    font-size: 17px;
+    text-align-last: center;
+  }
+
+  .inner-section .written-area{
+    width: 98%;
+    margin: 1%;
+  }
+
+  .inner-section .written-area h2{
+    text-align: center;
+  }
+
+  .inner-section .written-area p{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .inner-section .cotact-area{
+    width: 100%;
+    text-align: center;
+  }
+
+  .inner-section .cotact-area input[type="submit"]{
+    margin-top: 0px;
+  }
+  
+  #blog .blog-caption h1::after{
+    width: 120px;
+    left: 110px;
+  }
+
+  .inner-blog .child-blog{
+    width: 100%;
+  }
+
+  .service-area .service-writting{
+    width:98%;
+    font-size: 22px;
+  }
+
+
+  .service-area .service-form{
+    width: 98%;
+  }
+
+  .service-area .service-form input{
+    margin-top: 0;
+  }
+
+  .inner-footer .all-footer{
+    width: 98%;
+    margin: 1%;
+  }
+
+  .inner-footer .all-footer h2{
+    border-radius: 10px;
+  }
+
+  .innercopyright_area .left_copyright{
+    width: 100%;
+  }
+
+  .innercopyright_area .right_copyright{
+    width: 100%;
+  }
+
+  .innercopyright_area .right_copyright p{
+    float: left;
+    margin: 0;
+    margin-left: 40px;
+  }
+
+
+
+
+
+
+}
+
+
+
+
+
